@@ -12,17 +12,17 @@ function App() {
       <Router>
         <ul className="navigation">
           <li>
-            <Link to="/products">Products</Link>
+            <Link to="/products-app">Products</Link>
           </li>
           <li>
             <Link to="/cart">Cart</Link>
           </li>
         </ul>
         <Switch>
-          <Route exact path="/products">
+          <Route exact path="/products-app">
             <Products />
           </Route>
-          <Route exact path="/products/:id">
+          <Route exact path="/products-app/:id">
             <Product />
           </Route>
           <Route exact path="/cart">
